@@ -30,3 +30,14 @@ Ayu theme for vimium
 
 ### Hints
 <img width="100%" src="./img/light/hints_light.png">
+
+<br />
+
+## How to customize vimium
+Open the Vimium options and add the content of any of the themes in _CSS for Vimium UI_:
+
+- **[Ayu Dark](https://github.com/AnthonyAsDev/vimium-ayu-theme/blob/main/vimium-ayu-dark-theme.css)**  
+- **[Ayu Mirage](https://github.com/AnthonyAsDev/vimium-ayu-theme/blob/main/vimium-ayu-mirage-theme.css)**  
+- **[Ayu Light](https://github.com/AnthonyAsDev/vimium-ayu-theme/blob/main/vimium-ayu-light-theme.css)**  
+
+<img width="100%" src="./img/others/settings.png">
