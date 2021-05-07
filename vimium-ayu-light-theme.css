@@ -14,20 +14,20 @@
   --shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 
 /* -------- VOMNIBAR & HUD -------- */
-  --fg: #000000;
+  --fg: #0A0E14;
   --fg-dark: #575F66;
   --fg-url: #8A9199; 
   --fg-match: #FF9940;
 
   --bg: #FAFAFA;
-  --bg-searcharea: #FAFAFA;
-  --bg-selected: #424A5040;
+  --bg-searcharea: #FFFFFF;
+  --bg-selected: #8A91991A;
 
   --border: #F0F0F0;
 
 /* -------- HINTS -------- */
   --bg-hints: #FF9940;      /* Background color of link hints */
-  --border-hints: #F2AE49;  /* Border color of link hints */
+  --border-hints: #FA8D3E;  /* Border color of link hints */
   --fg-hints: #FAFAFA;      /* Text color of link hints */
 }
 

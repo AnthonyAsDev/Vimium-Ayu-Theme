@@ -14,21 +14,21 @@
   --shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 
 /* -------- VOMNIBAR & HUD -------- */
-  --fg: #FFFFFF;
+  --fg: #FAFAFA;
   --fg-dark: #B3B1AD;
   --fg-url: #4D5566; 
   --fg-match: #E6B450;
 
   --bg: #0A0E14;
-  --bg-searcharea: #0A0E14;
+  --bg-searcharea: #0D1016;
   --bg-selected: #00010A;
 
   --border: #000000;
 
 /* -------- HINTS -------- */
-  --bg-hints: #E6B450;      /* Background color of link hints */
-  --border-hints: #FFB454;  /* Border color of link hints */
-  --fg-hints: #FFFFFF;      /* Text color of link hints */
+  --bg-hints: #FF9940;      /* Background color of link hints */
+  --border-hints: #FA8D3E;  /* Border color of link hints */
+  --fg-hints: #FAFAFA;      /* Text color of link hints */
 }
 
 /* --------------------------------- CSS --------------------------------- */
