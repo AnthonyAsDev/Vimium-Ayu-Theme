@@ -1,0 +1,30 @@
+common.accent, #FF9940,#FFCC66,#E6B450
+common.bg, #FAFAFA,#1F2430,#0A0E14
+common.fg, #575F66,#CBCCC6,#B3B1AD
+common.ui, #8A9199,#707A8C,#4D5566
+syntax.tag, #55B4D4,#5CCFE6,#39BAE6
+syntax.func, #F2AE49,#FFD580,#FFB454
+syntax.entity, #399EE6,#73D0FF,#59C2FF
+syntax.string, #86B300,#BAE67E,#C2D94C
+syntax.regexp, #4CBF99,#95E6CB,#95E6CB
+syntax.markup, #F07171,#F28779,#F07178
+syntax.keyword, #FA8D3E,#FFA759,#FF8F40
+syntax.special, #E6BA7E,#FFE6B3,#E6B673
+syntax.comment, #ABB0B6,#5C6773,#626A73
+syntax.constant, #A37ACC,#D4BFFF,#FFEE99
+syntax.operator, #ED9366,#F29E74,#F29668
+syntax.error, #F51818,#FF3333,#FF3333
+ui.line,#8A91991A,#191E2A,#00010A
+ui.panel.bg,#FFFFFF,#232834,#0D1016
+ui.panel.shadow,#424A5040,#141925,#00010A
+ui.panel.border,#F0F0F0,#101521,#000000
+ui.gutter.normal,#8A919966,#707A8C66,#4D556699
+ui.gutter.active,#8A9199CC,#707A8CCC,#4D5566E6
+ui.selection.bg,#D1E4F4,#33415E,#273747
+ui.selection.inactive,#E7E8E9,#323A4C,#1B2733
+ui.selection.border,#E1E1E2,#323A4C,#304357
+ui.guide.active,#8A919959,#707A8CB3,#4D5566B3
+ui.guide.normal,#8A91992E,#707A8C4D,#4D556666
+vcs.added,#99BF4D,#A6CC70,#91B362
+vcs.modified,#709ECC,#77A8D9,#6994BF
+vcs.removed,#F27983,#F27983,#D96C75

@@ -8,33 +8,34 @@
   --font-weight-bold: bold;
 
   --font: "Helvetica Neue", "Helvetica", "Arial", sans-serif; /* Font used in the UI */
-  
+
   --padding: 2px;
-  --padding-vomnibar: 6px;
+  --padding-vomnibar: 10px;
   --shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 
-/* -------- VOMNIBAR & HUD -------- */
-  --fg: #FAFAFA;
-  --fg-dark: #B3B1AD;
-  --fg-url: #4D5566; 
-  --fg-match: #E6B450;
+  /* -------- VOMNIBAR & HUD -------- */
+  --fg: #fafafa;
+  --fg-dark: #b3b1ad;
+  --fg-url: #4d5566;
+  --fg-match: #e6b450;
 
-  --bg: #0A0E14;
-  --bg-searcharea: #0D1016;
-  --bg-selected: #00010A;
+  --bg: #0a0e14;
+  --bg-searcharea: #0d1016;
+  --bg-selected: #00010a;
 
   --border: #000000;
 
-/* -------- HINTS -------- */
-  --bg-hints: #FF9940;      /* Background color of link hints */
-  --border-hints: #FA8D3E;  /* Border color of link hints */
-  --fg-hints: #FAFAFA;      /* Text color of link hints */
+  /* -------- HINTS -------- */
+  --bg-hints: #ff9940; /* Background color of link hints */
+  --border-hints: #fa8d3e; /* Border color of link hints */
+  --fg-hints: #fafafa; /* Text color of link hints */
 }
 
 /* --------------------------------- CSS --------------------------------- */
 
 /* -------- HINTS -------- */
-#vimiumHintMarkerContainer div.internalVimiumHintMarker, #vimiumHintMarkerContainer div.vimiumHintMarker {
+#vimiumHintMarkerContainer div.internalVimiumHintMarker,
+#vimiumHintMarkerContainer div.vimiumHintMarker {
   background: var(--bg-hints);
   border: 1px solid var(--border-hints);
   box-shadow: var(--shadow);
@@ -105,7 +106,6 @@
   background: var(--bg);
   border-top: 1px solid var(--border);
   margin: 0;
-  padding: var(--padding-vomnibar);
 }
 
 #vomnibar li {
@@ -123,6 +123,7 @@
 #vomnibar li .vomnibarBottomHalf {
   padding-top: 0px;
   padding-bottom: 1px;
+  margin-top: 4px;
 }
 
 #vomnibar li .vomnibarSource {
@@ -157,16 +158,18 @@
 }
 
 #vomnibar li.vomnibarSelected {
-    background-color: var(--bg-selected);
-    border-radius: 3px;
+  background-color: var(--bg-selected);
+  border-radius: 3px;
 }
 
-#vomnibar li.vomnibarSelected .vomnibarUrl { /* Changes '.vomnibarURL' to '--fg-match' when selected */
-    color: var(--fg-match);
+#vomnibar li.vomnibarSelected .vomnibarUrl {
+  /* Changes '.vomnibarURL' to '--fg-match' when selected */
+  color: var(--fg-match);
 }
 
-#vomnibar li.vomnibarSelected .vomnibarMatch {  /* Changes '.vomnibarMatch' to '--fg' when selected */
-    color: var(--fg);
+#vomnibar li.vomnibarSelected .vomnibarMatch {
+  /* Changes '.vomnibarMatch' to '--fg' when selected */
+  color: var(--fg);
 }
 
 /* -------- HUD -------- */
